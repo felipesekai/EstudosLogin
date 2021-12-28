@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormLogin">
+
+    <View
+        android:id="@+id/container_component"
+        style="@style/container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        style="@style/edt_camps"
+        android:hint="Email"
+        app:layout_constraintStart_toStartOf="@id/container_component"
+        app:layout_constraintEnd_toEndOf="@id/container_component"
+        app:layout_constraintTop_toTopOf="@id/container_component"
+        />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        style="@style/edt_camps"
+        android:hint="Senha"
+        app:layout_constraintStart_toStartOf="@id/container_component"
+        app:layout_constraintEnd_toEndOf="@id/container_component"
+        app:layout_constraintTop_toBottomOf="@id/edt_username"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        app:layout_constraintTop_toBottomOf="@id/edt_pass"
+        app:layout_constraintStart_toStartOf="@id/container_component"
+        app:layout_constraintEnd_toEndOf="@id/container_component"
+        app:layout_constraintBottom_toBottomOf="@id/container_component"
+        />
+
+    <TextView
+        android:id="@+id/txt_cad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_styles"
+        android:text="Cadastre-se"
+        app:layout_constraintTop_toBottomOf="@id/container_component"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

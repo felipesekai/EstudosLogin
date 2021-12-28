@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462035944255",
+    "project_id": "estudos-tela-login",
+    "storage_bucket": "estudos-tela-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462035944255:android:27a11a42502b0b4094c98a",
+        "android_client_info": {
+          "package_name": "com.estudos.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462035944255-610tib6upk1v9enm3u3nfdmcgjgrcvqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw703oKoI7PrQhYEAZAakeoK7Jit3QTno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462035944255-610tib6upk1v9enm3u3nfdmcgjgrcvqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
