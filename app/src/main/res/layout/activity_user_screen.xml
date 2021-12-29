@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserScreen"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_width="70dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_outline_person_24" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/edt_username"
+        style="@style/edt_camps"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userImageView" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/edt_email"
+        style="@style/edt_camps"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="email"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_username" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

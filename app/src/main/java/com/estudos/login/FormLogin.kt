@@ -39,9 +39,7 @@ class FormLogin : AppCompatActivity() {
     private fun userLogin(email: String, password: String) {
        auth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this) { task ->
             if (task.isSuccessful){
-                val user = auth.currentUser
-//                user.email
-//                user.displayName
+              startActivity(Intent(this, UserScreen::class.java))
                 Toast.makeText(this, "login realizado", Toast.LENGTH_SHORT).show()
 
             }else{
