@@ -6,6 +6,12 @@
         <item name="android:background">@drawable/container</item>
         <item name="android:layout_margin">20dp</item>
     </style>
+    <style name="container_progressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/container</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
 
     <style name="edt_camps">
         <item name="android:layout_width">match_parent</item>
